@@ -28,15 +28,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Trabalho",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
@@ -46,17 +46,14 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+ 
 ];
 
 const technologies = [
@@ -80,10 +77,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -96,18 +90,12 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+  
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  
   {
     name: "docker",
     icon: docker,
@@ -116,55 +104,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Fullstack Developer freelancer",
+    company_name: "Lobodev",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Fevereiro 2022 - Atualmente",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvendo e mantendo aplicações web usando React.js e outras tecnologias relacionadas.",
+"Colaborando com equipes multidisciplinares, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
+"Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+"Participando de revisões de código e fornecendo feedback construtivo para outros desenvolvedores.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Fullstack Developer",
+    company_name: "INDT",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Atuei como Fullstack Dev em projetos, utilizando Nodejs e React, respectivamente backend e frontend.",
+      "Modelagem de bancos, arquitetura de projetos de software.Trabalhamos como equipe ágil utilizando LEAN.",
+      "Framework Nestjs (Typescript) para backend.Swagger para documentação de API’s, Insomnia, Typeorm",
+      
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Fullstack Developer",
+    company_name: "ICTS",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Abril 2021- Dezembro 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Analista Desenvolvedor e atuei como Fullstack Dev em projetos, utilizandoNodejs e React, respectivamente backend e frontend.",
+      "Framework Nestjs (Typescript) para backend.Outras tecnologias utilizadas , Swagger para documentação de APIs, Insomnia, Banco de Dados MSSQL Requisito do cliente), LDAP entre outros.",
+      "Versionamento de código com GIT",
+      "Modelagem de bancos de dados",
+      "Arquitetura de projetos de software",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "Freelancer",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2015 - 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilizo JavaScript , PHP (Laravel), Nodejs , React, React Native MongoDb e MySQL,Gatsby e Nextjs, HTML5, CSS3,",
+      "Colaborando com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
+      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+      "Participando de revisões de código e fornecendo feedback construtivo para outros desenvolvedores.",
     ],
   },
 ];
@@ -198,12 +187,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ecommerce Fortunato Tapeçaria",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "O trabalho envolveu a criação de um site de e-commerce completo, incluindo páginas de produto, carrinho de compras, checkout e gerenciamento de pedidos. Também foram implementadas funcionalidades como pesquisa de produtos, filtros de produtos, login de usuários e recuperação de senhas.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -216,12 +205,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/andrelobo/fortunato-tape-aria",
   },
   {
-    name: "Job IT",
+    name: "Portal de Imóveis",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Desenvolvimento de uma plataforma para aluguel e venda de imóveis. Nesta plataforma, proprietários e corretores de imóveis podem cadastrar suas propriedades e os usuários finais podem procurar e solicitar informações sobre imóveis para aluguel ou venda.",
     tags: [
       {
         name: "react",
@@ -237,12 +226,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/andrelobo/projects_realestate",
   },
   {
-    name: "Trip Guide",
+    name: "Companhia Web",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Site institucional para Agência Digital",
     tags: [
       {
         name: "nextjs",
@@ -258,7 +247,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://companhia-web.vercel.app/",
   },
 ];
 
